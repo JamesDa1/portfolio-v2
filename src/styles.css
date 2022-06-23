@@ -115,6 +115,9 @@ body {
   gap: 1.5rem;
 }
 
+@media {
+}
+
 /* Projects  */
 
 .projectTech {
@@ -129,4 +132,10 @@ body {
 .actions {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* ABOUT  */
+
+.about p {
+  font-size: 2rem;
 }
