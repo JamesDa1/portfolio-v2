@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  margin: 0;
+  background-color: #0a192f;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navigation  */
+.nav {
+  background-color: #0a192f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+
+  color: #4dc6b0;
+}
+
+.site-title {
+  font-size: 3rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.nav li.active {
+  /* background-color: #555; */
+  text-decoration: underline;
+}
+
+.nav li:hover {
+  background-color: #777;
+}
+
+/* About Page */
+
+/* Home  */
+
+.home {
+  color: white;
+}
+
+.home h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subscript {
+  margin-top: 0;
+}
+.home .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 1rem;
+  margin-top: 2rem;
+}
+
+.home img {
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.heroBtn {
+  background: transparent;
+  color: #62fbd7;
+  border: 2px solid #62fbd7;
+  margin-top: 1rem;
+  padding: 0.5em 1.5em;
+  font-size: 1.5rem;
+}
+
+/* To do: add button fill animation on hover */
+
+/* About page  */
+.skills {
+  margin-top: 2rem;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Projects  */
+
+.projectTech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
