@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/JamesDa1.github.io/portfolio-v2/static/css/main.1c8b4843.css",
+    "main.js": "/JamesDa1.github.io/portfolio-v2/static/js/main.8479ebc9.js",
+    "static/media/maze.png": "/JamesDa1.github.io/portfolio-v2/static/media/maze.585a2d0a9dd9fdf83c35.png",
+    "static/media/portrait_cropped.jpg": "/JamesDa1.github.io/portfolio-v2/static/media/portrait_cropped.140490fc4748ce999e1e.jpg",
+    "static/media/logos_react.svg": "/JamesDa1.github.io/portfolio-v2/static/media/logos_react.e8f543bfaa87051149541c0db99ff785.svg",
+    "static/media/logos_python.svg": "/JamesDa1.github.io/portfolio-v2/static/media/logos_python.e1983a737c329569212b0da8909b0cd2.svg",
+    "static/media/logos_css.svg": "/JamesDa1.github.io/portfolio-v2/static/media/logos_css.18ca8daa2302773ca67964a5794d5648.svg",
+    "static/media/logos_html.svg": "/JamesDa1.github.io/portfolio-v2/static/media/logos_html.f7881ccc1582310b616b2687e689e7a0.svg",
+    "static/media/logos_javascript.svg": "/JamesDa1.github.io/portfolio-v2/static/media/logos_javascript.1c82127b14c245274653be95147ef98c.svg",
+    "index.html": "/JamesDa1.github.io/portfolio-v2/index.html",
+    "main.1c8b4843.css.map": "/JamesDa1.github.io/portfolio-v2/static/css/main.1c8b4843.css.map",
+    "main.8479ebc9.js.map": "/JamesDa1.github.io/portfolio-v2/static/js/main.8479ebc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c8b4843.css",
+    "static/js/main.8479ebc9.js"
+  ]
+}
