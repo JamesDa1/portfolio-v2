@@ -10,10 +10,9 @@ export const Navbar = () => {
         JD
       </Link>
       <ul>
-        <CustomLink to="/">01. Home</CustomLink>
-        <CustomLink to="/projects">02. Projects</CustomLink>
-        <CustomLink to="/about">03. About</CustomLink>
-        <CustomLink to="/pomodoro">04. Pomodoro</CustomLink>
+        <CustomLink to="/">01. Hjem</CustomLink>
+        <CustomLink to="/about">02. Om_Meg</CustomLink>
+        <CustomLink to="/projects">03. Prosjekter</CustomLink>
       </ul>
     </nav>
   )

@@ -10,24 +10,24 @@ import {
   ProjectDemo,
   ProjectTechWrap,
   ProjectTech,
-} from "./ProjectElements";
+} from "./ProjectElements"
 
-import { projects } from "./Data";
-import { AiFillGithub } from "react-icons/ai";
+import { projects } from "./Data"
+import { AiFillGithub } from "react-icons/ai"
 
 export const ProjectList = () => {
   return (
-    <div className="projectContainer">
+    <div className="projectsContainer">
       <h1>Prosjekter</h1>
       {projects.map((project) => {
-        return <ProjectTemplate id={project.id} {...project} />;
+        return <ProjectTemplate id={project.id} {...project} />
       })}
     </div>
-  );
-};
+  )
+}
 
 const ProjectTemplate = (props) => {
-  const { title, description, tech, img, sourceCode, liveLink } = props;
+  const { title, description, tech, img, sourceCode, liveLink } = props
   return (
     <>
       <ProjectContainer>
@@ -39,7 +39,7 @@ const ProjectTemplate = (props) => {
           <ProjectDescription>{description}</ProjectDescription>
           <ProjectTechWrap>
             {tech.map((tech) => {
-              return <ProjectTech>{tech}</ProjectTech>;
+              return <ProjectTech>{tech}</ProjectTech>
             })}
           </ProjectTechWrap>
           <ProjectActions>
@@ -52,5 +52,5 @@ const ProjectTemplate = (props) => {
         </ProjectInfo>
       </ProjectContainer>
     </>
-  );
-};
+  )
+}

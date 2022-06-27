@@ -65,6 +65,10 @@ body {
 
 .home {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home h1 {
@@ -98,13 +102,42 @@ body {
   margin-top: 1rem;
   padding: 0.5em 1.5em;
   font-size: 1.5rem;
+  border-radius: 6px;
 }
 
 /* To do: add button fill animation on hover */
 
-/* About page  */
+/* Projects  */
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ABOUT  */
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about p {
+  font-size: 2rem;
+}
+
 .skills {
   margin-top: 2rem;
+}
+
+.skills h2 {
+  font-size: 2rem;
 }
 
 .skillsContainer {
@@ -115,27 +148,23 @@ body {
   gap: 1.5rem;
 }
 
-@media {
-}
-
-/* Projects  */
-
-.projectTech {
+.skillBox {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  margin: 1rem;
+  /* width: 25%; */
 }
 
-.actions {
-  display: flex;
-  justify-content: space-evenly;
+.skillLogo {
+  min-height: 60px;
+  max-width: 100px;
+  height: 8vw;
 }
+/* Trying to rescale svg */
 
-/* ABOUT  */
-
-.about p {
-  font-size: 2rem;
+/* Moves skills to the top on larger screens  */
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
 }
