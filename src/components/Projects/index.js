@@ -26,7 +26,7 @@ export const ProjectList = () => {
   );
 };
 
-export const ProjectTemplate = (props) => {
+const ProjectTemplate = (props) => {
   const { title, description, tech, img, sourceCode, liveLink } = props;
   return (
     <>
