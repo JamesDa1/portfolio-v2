@@ -168,3 +168,46 @@ body {
     flex-direction: column;
   }
 }
+
+/* Contact Form  */
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+label {
+  line-height: 2rem;
+}
+input {
+  width: 100%;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 768px;
+  min-height: 12em;
+  font-weight: 700;
+  /* resize: vertical; */
+}
+
+.formBtn {
+  width: 100%;
+  background: #f7fff1;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #141f26;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.formBtn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #62fbd7;
+}

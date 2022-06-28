@@ -10,14 +10,14 @@ import {
   NavBtnLink,
 } from "./NavbarElements"
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavLink to="/">
           <NavLogo>JD</NavLogo>
         </NavLink>
-        <Bars />
+        <Bars onClick={toggle} />
         <NavMenu>
           <NavLink to="/" activeStyle>
             01. Hjem
