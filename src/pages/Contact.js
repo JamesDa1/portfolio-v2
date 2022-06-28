@@ -3,7 +3,7 @@ export const Contact = () => {
     <>
       <div className="contactContainer">
         <h1>Contact Me</h1>
-        <form action="">
+        <form action="/">
           <label htmlFor="name">Name</label>
           <input type="text" id="name" placeholder="Enter name" />
           <label htmlFor="subject">Subject</label>
