@@ -1,3 +1,4 @@
+import { HeroLink } from "../components/Button"
 import portrait from "../images/portrait_cropped.jpg"
 export const Home = () => {
   return (
@@ -10,7 +11,8 @@ export const Home = () => {
       <p className="subscript">
         Front End Developer, Python Entusiast, Java dabbler
       </p>
-      <button className="heroBtn">Prosjekter</button>
+      {/* <button className="heroBtn">Prosjekter</button> */}
+      <HeroLink to="projects">Prosjekter</HeroLink>
     </div>
   )
 }
